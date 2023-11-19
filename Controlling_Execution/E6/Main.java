@@ -1,20 +1,17 @@
 package E6;
 
-import java.util.Random;
-
 public class Main {
     public static void main(String args[]) {
-        Random rand = new Random();
-        int array[] = new int[15];
+        System.out.println(test(10, 5));
+    }
 
-        for (int i = 0; i < 15; i++) {
-            int x = rand.nextInt(10);
-            array[i] = x;
+    static int test(int testval, int target) {
+        if (testval > target) {
+            return +1;
+        } else if (testval < target) {
+            return -1;
+        } else {
+            return 0;
         }
-
-        for (int y : array) {
-            System.out.print(y + " ");
-        }
-
     }
 }
