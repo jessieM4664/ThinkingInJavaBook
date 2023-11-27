@@ -8,7 +8,7 @@ public class Main {
     Main method1() {
         method2();
         method2();
-        return this;
+        return this; // returns the current object
     }
 
     void method2() {
