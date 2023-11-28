@@ -7,8 +7,8 @@ package E11;
 
 public class Main {
     public static void main(String[] args) {
-        //Book m = new Book(true);
-        //m.checkIn();
+        Book m = new Book(true);
+        m.checkIn();
         new Book(true);
         System.gc();
     }
