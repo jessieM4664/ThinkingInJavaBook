@@ -8,7 +8,7 @@ public class Main {
     }
 
     Main() {
-        this(5);
+        this(5); // this invoking constructor
     }
 
     Main(int num) {
