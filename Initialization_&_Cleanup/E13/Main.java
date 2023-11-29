@@ -20,8 +20,8 @@ class Cups {
     static Cup cup1;
     static Cup cup2;
     static {
-        cup1 = new Cup(1);
-        cup2 = new Cup(2);
+        cup1 = new Cup(1); // called before Cups constructor
+        cup2 = new Cup(2); // ALSO called at the same time ^
     }
     Cups() {
         System.out.println("Cups()");
