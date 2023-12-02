@@ -19,5 +19,5 @@ class B {
 }
 
 class C extends A {
-
+    
 }
