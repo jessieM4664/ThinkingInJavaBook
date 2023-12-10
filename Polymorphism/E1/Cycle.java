@@ -17,7 +17,7 @@ public class Cycle {
 }
 
 class Unicycle extends Cycle {
-
+    
 }
 
 class Bicycle extends Cycle {
