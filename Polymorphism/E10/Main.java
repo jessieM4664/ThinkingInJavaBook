@@ -6,5 +6,9 @@ public class Main {
         a.m1();
     }
 }
+/**
+ * output:
+ *  B m2()
+ */
 
 
