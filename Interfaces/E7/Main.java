@@ -5,7 +5,7 @@ interface Rodent {
 }
 
 public class Main {
-    public static void main(String args[]) {
+    public static void main(String args[]) {//
         Rodent rodents[] = {
             new Mouse(), new Gerbil(), new Hampster() };
 

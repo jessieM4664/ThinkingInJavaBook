@@ -4,26 +4,24 @@ interface FastFood {
     void print();
 }
 
-public class Sandwich extends PortableLunch {
-    Bread b = new Bread();
-    Pickle p = new Pickle();
-    Sandwich() {System.out.println("Sandwich()");}
+public class Sandwich implements FastFood {
     public static void main(String arg[]) {
-        new Sandwich();
+        new Sandwich().print();
     }
+    public void print() {System.out.println("Sandwich()");}
 }
 class PortableLunch extends Lunch {
-    PortableLunch() {System.out.println("PortableLunch()");}
+    public void print() {System.out.println("PortableLunch()");}
 }
 class Lunch extends Meal {
-    Lunch() {System.out.println("Lunch()");}
+    public void print() {System.out.println("Lunch()");}
 }
 class Bread {
-    Bread() {System.out.println("Bread()");}
+    public void print() {System.out.println("Bread()");}
 }
 class Meal {
-    Meal() {System.out.println("Meal()");}
+    public void print() {System.out.println("Meal()");}
 }
 class Pickle {
-    Pickle() {System.out.println("Pickle()");}
+    public void print() {System.out.println("Pickle()");}
 }
