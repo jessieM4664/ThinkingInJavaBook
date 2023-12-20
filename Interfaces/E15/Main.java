@@ -1,4 +1,4 @@
-package E14;
+package E15;
 
 interface A {
     void up();
@@ -17,7 +17,11 @@ interface D extends A, B, C {
     void left();
 }
 
-class Frog implements D {
+abstract class Toad {
+    abstract void left();
+}
+
+class Frog extends Toad implements D {
     public void up() {
         System.out.println("Frog.up()");
     }
